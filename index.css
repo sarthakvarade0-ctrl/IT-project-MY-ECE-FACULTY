@@ -42,7 +42,6 @@
 .slide-show{
    margin:10px auto;
    width: 100%;
-   border:5px solid red;
    display: flex;
    overflow-x: auto;
 
@@ -55,13 +54,15 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
-    animation: slide 5s infinite linear;
+    animation: slide 30s infinite linear;
+    padding-right: 1em;
+
 }
 .runing-slides{
     flex: 0 0 5em;
     height: 5em;
     padding: 1em;
-    background: darkcyan;
+    box-shadow: inset 1px -2px 5px rgba(0,0,0,0.5);
     font-size: 3em;
     border-radius: 0.5rem;
     text-align: center;
@@ -71,3 +72,5 @@
     from{translate:0;}
     to{translate:-100%;}
 }
+/* ------------------------------------------ */
+/*for each slide */
