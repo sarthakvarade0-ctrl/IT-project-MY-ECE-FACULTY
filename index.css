@@ -76,7 +76,7 @@
 /* ------------------------------------------ */
 .faculty-container{
     display: grid;
-    grid-template-columns: repeat(4, 200px);    
+    grid-template-columns: repeat(3, 200px);    
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
