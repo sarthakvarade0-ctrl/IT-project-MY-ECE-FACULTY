@@ -54,19 +54,20 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
-    animation: slide 30s infinite linear;
+    animation: slide 20s infinite linear;
     padding-right: 1em;
 
 }
 .runing-slides{
     flex: 0 0 5em;
-    height: 5em;
-    padding: 1em;
+    height: 6em;
+    padding:0.1em;
     box-shadow: inset 1px -2px 5px rgba(0,0,0,0.5);
     font-size: 3em;
     border-radius: 0.5rem;
     text-align: center;
     align-content: center;
+    ;
 }
 @keyframes slide{
     from{translate:0;}
@@ -74,3 +75,6 @@
 }
 /* ------------------------------------------ */
 /*for each slide */
+#slide1{
+    padding-bottom: 1em;
+}
