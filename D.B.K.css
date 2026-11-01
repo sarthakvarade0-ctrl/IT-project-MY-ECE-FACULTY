@@ -36,6 +36,7 @@ header{
 .profile-photo img{
     height: 175px;
     width: 175px ;
+    
 
 }
 .box2{
@@ -52,4 +53,5 @@ footer{
     text-align: center;
     color: #333;
     font-family: "poppins","inter",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+    bottom: 0;
 }
