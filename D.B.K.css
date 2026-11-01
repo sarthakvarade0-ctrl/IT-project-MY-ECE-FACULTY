@@ -64,4 +64,5 @@ footer{
     color: #333;
     font-family: "poppins","inter",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
     bottom: 0;
+    height: auto;
 }
